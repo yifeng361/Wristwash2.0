@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1" />
+        <Button
+            android:id="@+id/step2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2" />
+        <Button
+            android:id="@+id/step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3" />
+        <Button
+            android:id="@+id/step4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/step5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5" />
+        <Button
+            android:id="@+id/step6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6" />
+        <Button
+            android:id="@+id/step7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 7" />
+        <Button
+            android:id="@+id/step8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 8" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/step9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 9" />
+        <Button
+            android:id="@+id/step10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 10" />
+        <Button
+            android:id="@+id/step11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 11" />
+        <Button
+            android:id="@+id/step12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 12" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/step13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 13" />
+        <Button
+            android:id="@+id/step14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 14" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp">
+        <ImageButton
+            android:id="@+id/receive"
+            android:layout_width="69dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/start" />
+        />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ok" />
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
